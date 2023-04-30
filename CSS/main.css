@@ -250,7 +250,9 @@ header {
         display: none;
     }
     .active i:first-child {
-        display: none; 
+        display: block; 
+        padding: 0px !important;
+        margin: 0px !important;
     }
     .nav ul li a::before {
         display: none; 
