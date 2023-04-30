@@ -956,6 +956,12 @@ footer {
     color: var(--font-silver-color);
 }
 .footer-input {
+    width: 800px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-input form {
     display: flex;
     flex-direction: row;
     margin-bottom: 60px;
@@ -1038,7 +1044,7 @@ footer {
         padding-right: 5%;
         text-align: center;
       }
-    .footer-input {
+      .footer-input form {
         display: flex;
         justify-content: center;
         align-items: center;
