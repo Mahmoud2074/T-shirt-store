@@ -36,11 +36,17 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-
-
   const hamburger = document.querySelector('.hamburger');
   const menu = document.querySelector('.nav ul');
   hamburger.addEventListener('click', () => {
     menu.classList.toggle('show');
   });
   
+
+document.querySelector('.fa-solid.fa-magnifying-glass').addEventListener('click', function() {
+  document.querySelector('.search-overlay').style.display = 'block';
+});
+
+document.querySelector('.search-overlay .close-btn').addEventListener('click', function() {
+  document.querySelector('.search-overlay').style.display = 'none';
+});
