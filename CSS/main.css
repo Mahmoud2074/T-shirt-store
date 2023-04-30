@@ -226,14 +226,14 @@ header {
 }
 @media screen and (max-width: 768px) {
     header {
-      max-width: 100%;
-      margin-left: 15px;
-      margin-right: 15px;
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
     }
     .nav ul li a {
-      font-size: 16px;
-      padding: 10px 0px;
-      margin-right: 0px;
+    font-size: 16px;
+    padding: 10px 0px;
+    margin-right: 0px;
     }
     .nav ul {
         display: none;
@@ -866,7 +866,7 @@ header {
     position: absolute;
     bottom: 15px;
     background-color: white;
-    width: 550px;
+    width: 95%;
     opacity: 0.8;
     transition: var(--main-transition);
 }
@@ -902,7 +902,7 @@ header {
     position: absolute;
     bottom: 15px;
     background-color: white;
-    width: 550px;
+    width: 95%;
     opacity: 0.8;
     transition: var(--main-transition);
 }

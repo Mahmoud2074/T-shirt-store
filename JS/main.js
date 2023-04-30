@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
 
+
 document.querySelector('.fa-solid.fa-magnifying-glass').addEventListener('click', function() {
   document.querySelector('.search-overlay').style.display = 'block';
 });
