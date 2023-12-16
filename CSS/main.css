@@ -48,7 +48,7 @@ h6 {
 .container {
     margin-left: auto;
     margin-right: auto;
-}
+} */
   /* Small */
 @media (min-width: 768px) {
     .container {
@@ -299,7 +299,7 @@ header {
     position: absolute;
 }
 .landing .left h1 {
-    font-size: 3rem;
+    font-size: 3.438rem;
     font-weight: 600;
     margin-bottom: 1.8rem;
 }
@@ -325,45 +325,45 @@ header {
 }
 @media only screen and (max-width: 767px) {
     .landing .container {
-      flex-direction: column;
-      margin: 0 1rem;
-      overflow: hidden;
-    }
-  
-    .left {
-      margin: 1rem;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .right {
-      margin: 1rem;
-      overflow: visible;
-    }
-  
-    .right img:nth-child(1) {
-        height: 60vw;
-    }
-  
-    .right img:nth-child(2) {
-      height: 90vw;
-    }
-  
-    .landing .left h1 {
-      font-size: 2rem;
-    }
-  
-    .landing .left h6 {
-      font-size: 0.8rem;
-    }
-  
-    .landing .left button {
-      font-size: 0.8rem;
-      padding: 0.8rem 1.6rem;
-      margin-bottom: 2rem;
-    }
+    flex-direction: column;
+    margin: 0 1rem;
+    overflow: hidden;
+}
+
+.left {
+    margin: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    margin: 1rem;
+    overflow: visible;
+}
+
+.right img:nth-child(1) {
+    height: 60vw;
+}
+
+.right img:nth-child(2) {
+    height: 90vw;
+}
+
+.landing .left h1 {
+    font-size: 2rem;
+}
+
+.landing .left h6 {
+    font-size: 0.8rem;
+}
+
+.landing .left button {
+    font-size: 0.8rem;
+    padding: 0.8rem 1.6rem;
+    margin-bottom: 2rem;
+}
 }
 /* End landing page */
 /* start Collection */
@@ -557,7 +557,7 @@ header {
     font-weight: 400;
 }
 .collec-one h2 {
-    font-size: 2.2vw;
+    font-size: 2.25rem;
     color: black;
     font-weight: 600;
     padding-bottom: 10px;
